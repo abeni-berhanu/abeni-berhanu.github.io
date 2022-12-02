@@ -1,0 +1,17 @@
+body {
+    background-color: rgb(126, 163, 150);
+}
+
+#expenseHistory {
+    width: 80%;
+    border: 2cm;
+    border-color: black;
+} 
+
+#nameHead {
+    border: 1cm;
+    text-align: left;
+    width:45%;
+    height: 50%;
+    color: rgb(3, 35, 33);
+}
