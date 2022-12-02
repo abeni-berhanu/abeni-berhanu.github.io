@@ -53,10 +53,13 @@ function addExpense() {
         allExpenses.appendChild(tableRaw);
     }
 
-    function deleteRaw(targetId) {
-        document.getElementById(targetId).parentElement.parentElement.remove();
-    }
+
 }
+
+function deleteRaw(targetId) {
+    document.getElementById(targetId).parentElement.parentElement.remove();
+}
+
 function clearInputBox() {
      /**
     *  @type HTMLInputElement
